@@ -3,8 +3,150 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 body{
     font-family: 'Bebas Neue', cursive;
     font-family: 'Nunito', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+
+/* Header part css  */
+.top-header{
+    background-color: #FFFBF3;
+}
+
+.navbar-brand img{
+    width: 45%;
+
+}
+.nav-item{
+    margin: 0 8px;
+}
+.nav-link{
+    font-size: 16px;
+    font-family: 'Nunito',sans-serif;
+    font-weight: 700;
+    color:#212529;
+    display: block;
+}
+.tomato{
+    color:#FF6347;
+    font-size:70px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 300;
+    line-height: 84px;
+}
+.blue-heading{
+    color:#282550;
+    font-size:70px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 300;
+    line-height: 84px;
+}
+p{
+    font-size: 16px;
+    color: #0e0000;
+    font-family: 'Nunito',sans-serif;
+}
+.btn-cart{
+    background: #2b2cc2;
+    color: #fff;
+    padding: 15px 25px;
+    outline: none;
+    border: 1 px solid rgb(43, 43, 194);
+    border: 1px solid #2b2cc2;
+    border-radius: 14px;
+    font-size: 18px;
+    font-family: 'Nunito',sans-serif;
+}
+.btn-cart:hover{
+    font-weight: 700;
+}
+.top-heading{
+    color:#282550;
+    font-size:50px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 100;
+    line-height: 60px;
+}
+.card-wrapper{
+    height: 33rem;
+    border: none;
+    border-radius: 12px;
+}
+.card-img-modi{
+    background-color:#F8F9FA ;
+    height: 50%;
+    border-radius: 10px;
+
+}
+.card-title{
+    color: #333333;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Nunito',sans-serif;
+
+}
+.card-text{
+    color: #333333; #ff6347
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito',sans-serif;
+}
+
+.card-footer{
+    background-color: white;
+    border: none;
+}
+.card-footer .price-tag{
+    color:  #ff6347;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Nunito',sans-serif;
+    padding-top: 15px;
+}
+.about-item-inner{
+    border-radius: 15px;
+    width: 85%;
+}
+.about-items-img-control {
+    width: 80px;
+    height: auto;
+}
+.about-item-title{
+    font-size: 20px;
+    color: #333333;
+    font-weight: 700;
+    font-family: 'Nunito',sans-serif;
+}
+.about-item-para{
+    font-size: 14px;
+    color: #212529;
+    font-weight: 400;
+    font-family: 'Nunito',sans-serif;
+}
+.about-items-details{
+    margin-left: 22px;
+}
+.section-gap{
+    margin: 110px auto;
+}
+.section-bg{
+    background-color: #FFFBF3;
+}
+.footer-part{
+    background-color: #FFF5E1;
+    /* height: 80px; */
+
+}
+.footer-text p{
+    font-size: 20px;
+    color: #212529;
+    font-family: 'Nunito',sans-serif;
+    font-weight: 700;
+    padding-top: 30px;
+
 }
