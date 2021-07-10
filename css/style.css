@@ -26,11 +26,9 @@ img{
     margin: 0 8px;
 }
 .nav-link{
-    font-size: 16px;
+   font-size: 16px;
     font-family: 'Nunito',sans-serif;
     font-weight: 700;
-    color:#212529;
-    display: block;
 }
 .tomato{
     color:#FF6347;
@@ -149,4 +147,19 @@ p{
     font-weight: 700;
     padding-top: 30px;
 
+}
+@media screen and (max-width:768px) {
+    .navbar-brand{
+        width: 80%;
+    }
+    .navbar-brand img{
+        width: 60%;
+    }
+    .top-heading{
+        text-align: center;
+    }
+    .about-item-inner{
+        text-align: center;
+        margin-top: 20px;
+    }
 }
